@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StockSense — Intelligent Inventory. Smarter Decisions.
 
 Multi-tenant inventory intelligence for retail: an immutable stock ledger, sales/returns, purchasing and
@@ -66,3 +67,6 @@ In production use PostgreSQL via Alembic; `create_all` runs only when `ENVIRONME
 6. Rate limiting is in-process (single replica). Token is stored in `sessionStorage` in the frontend (XSS-exposed);
    move to httpOnly cookies + CSRF for production.
 7. Dependency versions in `requirements.txt`/`package.json` were chosen from memory and are unverified against current releases.
+=======
+# Stocksense
+>>>>>>> 0a0ebccc5ee70aea8a58b41fb3328697503129f0
